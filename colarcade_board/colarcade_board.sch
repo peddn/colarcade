@@ -1,4 +1,82 @@
-EESchema Schematic File Version 2
-EELAYER 25 0
+EESchema Schematic File Version 4
+EELAYER 30 0
 EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5F400C74
+P 1750 1650
+F 0 "SW?" H 1750 1935 50  0000 C CNN
+F 1 "SW_Push" H 1750 1844 50  0000 C CNN
+F 2 "" H 1750 1850 50  0001 C CNN
+F 3 "~" H 1750 1850 50  0001 C CNN
+	1    1750 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5F402124
+P 2450 1650
+F 0 "SW?" H 2450 1935 50  0000 C CNN
+F 1 "SW_Push" H 2450 1844 50  0000 C CNN
+F 2 "" H 2450 1850 50  0001 C CNN
+F 3 "~" H 2450 1850 50  0001 C CNN
+	1    2450 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5F402AE5
+P 3150 1650
+F 0 "SW?" H 3150 1935 50  0000 C CNN
+F 1 "SW_Push" H 3150 1844 50  0000 C CNN
+F 2 "" H 3150 1850 50  0001 C CNN
+F 3 "~" H 3150 1850 50  0001 C CNN
+	1    3150 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5F403233
+P 3800 1650
+F 0 "SW?" H 3800 1935 50  0000 C CNN
+F 1 "SW_Push" H 3800 1844 50  0000 C CNN
+F 2 "" H 3800 1850 50  0001 C CNN
+F 3 "~" H 3800 1850 50  0001 C CNN
+	1    3800 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D?
+U 1 1 5F403CA1
+P 6350 2200
+F 0 "D?" H 6694 2246 50  0000 L CNN
+F 1 "WS2812B" H 6694 2155 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 6400 1900 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 6450 1825 50  0001 L TNN
+	1    6350 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:USB_B_Micro J?
+U 1 1 5F406CC6
+P 1650 3800
+F 0 "J?" H 1707 4267 50  0000 C CNN
+F 1 "USB_B_Micro" H 1707 4176 50  0000 C CNN
+F 2 "" H 1800 3750 50  0001 C CNN
+F 3 "~" H 1800 3750 50  0001 C CNN
+	1    1650 3800
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
